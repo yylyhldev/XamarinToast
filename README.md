@@ -15,9 +15,9 @@ Thank you in advance for any contribution.
 
 : ![alt-text](https://github.com/ishrakland/Toast/blob/master/IMG/Toast2.1.1.gif)
 
-
-Fork Tip:
-1.only need copy ShowToastPopUp.cs and IToastPopUp.cs；
-2.Xamarin.Forms.DependencyService.Register<ShowToastPopUp>();；
-3.public IToastPopUp Toast => DependencyService.Get<IToastPopUp>();；
+\n
+Fork Tip:\n
+1.only need copy ShowToastPopUp.cs and IToastPopUp.cs；\n
+2.Xamarin.Forms.DependencyService.Register<ShowToastPopUp>();；\n
+3.public IToastPopUp Toast => DependencyService.Get<IToastPopUp>();；\n
 4.Toast.ToastMessage("message");
