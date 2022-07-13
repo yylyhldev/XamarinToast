@@ -14,3 +14,10 @@ Let me know about your feedback and any suggestion to ameliorate the plugin.
 Thank you in advance for any contribution.
 
 : ![alt-text](https://github.com/ishrakland/Toast/blob/master/IMG/Toast2.1.1.gif)
+
+
+Fork Tip:
+1.only need copy ShowToastPopUp.cs and IToastPopUp.cs；
+2.Xamarin.Forms.DependencyService.Register<ShowToastPopUp>();；
+3.public IToastPopUp Toast => DependencyService.Get<IToastPopUp>();；
+4.Toast.ToastMessage("message");
